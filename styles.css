@@ -110,9 +110,7 @@ body{
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
-.hidden{
-    display:none!important; 
-}
+
 .aside{
     width:270px;
     background-color: #fdf9ff;
@@ -418,10 +416,61 @@ body{
     padding: 30px 15px;
     border: 1px solid #d4d4e3;
     border-radius:10px;
+    position: relative;
 }
-.about .about-content .personal-info .info-item p span{
-    font-weight: 400;
-    color: #504e70;
-    margin-left: 4px;
+.about .about-content .timeline p span{
+    font-weight: 600;
+    color: #302e4d;
+    margin-top: 4px;
     display: inline-block;
+}
+.about .about-content .timeline .timeline-item{
+    position:relative;
+    padding-left: 37px;
+    padding-bottom:50px;
+}
+.about .about-content .timeline .timeline-item:last-child{
+    padding-bottom:50px;
+}
+.about .about-content .timeline .timeline-item::before{
+    content: '';
+    width:1px;
+    position:absolute;
+    height: 100%;
+    left:7px;
+    top:4px;
+
+}
+.about .about-content .timeline .circle-dot{
+    position: absolute;
+    left:0px;
+    top:4px;;
+    height:15px;
+    width:15px;
+    left:0px;
+    border-radius:50%;
+}
+.about .about-content .timeline .timeline-date{
+    font-size:14px;
+    font-weight:400;
+    margin-bottom: 12px;
+    color: #504e70;
+}
+.about .about-content .timeline .timeline-date .fa{
+    margin-right: 5px;
+}
+
+.about .about-content .timeline .timeline-title{
+    font-weight:700;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+
+}
+.about .about-content .timeline .timeline-text{
+    font-size: 16px;
+    line-height: 25px;
+    color: #504e70;
+    margin:0;
+
 }
