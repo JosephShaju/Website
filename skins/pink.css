@@ -10,9 +10,12 @@
 .aside .nav li a:hover{
     color:#ec1839;  
 }
+.portfolio .portfolio-item .portfolio-info .icon .fa,
+.portfolio .portfolio-filter button.active,
 .aside .nav li a.active{
     color:#ec1839;  
 }
+
 .about .about-content .timeline .circle-dot,
 .about .about-content .timeline .timeline-item::before,
 .about .about-content .skills .skill-item .progress .progress-in,
@@ -25,3 +28,7 @@
 .home .intro .social-links a{
     background-color: #ec1839;
 }
+.portfolio .portfolio-filter button.active{
+    border-color:#ec1839;
+}
+
