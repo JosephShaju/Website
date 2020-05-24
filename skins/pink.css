@@ -20,7 +20,6 @@
 .about .about-content .timeline .circle-dot,
 .about .about-content .timeline .timeline-item::before,
 .about .about-content .skills .skill-item .progress .progress-in,
-.btn2,
 .btn,
 .section-title h2::before,
 .section-title h2::after,
@@ -33,4 +32,3 @@
 .portfolio .portfolio-filter button.active{
     border-color:#ec1839;
 }
-
